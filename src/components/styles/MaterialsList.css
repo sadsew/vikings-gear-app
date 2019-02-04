@@ -1,0 +1,64 @@
+.materials-list {
+  margin: 0 0 0 20px;
+  padding: 0; 
+}
+
+.materials-list .materials-list-item {
+  position: relative;
+  color: #eee;
+  font-size: 0.6em;
+  margin: 5px 0 0 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.materials-list .materials-list-item .materials-img{
+  width: 20px;
+  margin: 0 10px 0 0;
+}
+
+.materials-list .materials-list-item .secondary-list-item-inv{
+  position: absolute;
+  z-index: 9999;
+  width: 20px;
+  top: 5px;
+  right: 5px;
+}
+
+.materials-list .materials-list-item .secondary-list-item-inv img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .materials-list .materials-list-item {
+    position: relative;
+    color: #eee;
+    font-size: 0.8em;
+    margin: 5px 0 0 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .materials-list .materials-list-item {
+    position: relative;
+    color: #eee;
+    font-size: 1.1em;
+    margin: 5px 0 0 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .materials-list .materials-list-item .materials-img{
+    width: 30px;
+    margin: 0 10px 0 0;
+  }
+  .materials-list .materials-list-item .secondary-list-item-inv{
+    position: absolute;
+    z-index: 9999;
+    width: 40px;
+    top: 5px;
+    right: 5px;
+  }
+}

@@ -1,0 +1,100 @@
+.all-invaders-list-empty {
+  padding-bottom: 200px;
+  text-align: center;
+  color: rgb(111, 121, 136);
+}
+
+.all-invaders-buttons {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.all-invaders-buttons .button{
+  text-align: center;
+  padding: 10px;
+  border: 0;
+  background: #303644;
+  color: rgb(111, 121, 136);
+  transition: all 0.5s;
+  width: 150px;
+}
+
+.all-invaders-buttons .button-left{
+  border-radius: 5px 0 0 5px;
+}
+
+.all-invaders-buttons .button-right{
+  border-radius: 0 5px 5px 0;
+}
+
+.all-invaders-buttons .active {
+  background: #1a1e29;
+  color: #fff;
+}
+
+.all-invaders-list {
+  border-radius: 5px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.all-invaders-list h2 {
+  margin: 0;
+  padding: 0 0 10px 0;
+  color: rgb(188, 197, 235);
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.all-invaders-list__item {
+  /* display: inline-block;
+  vertical-align: top; */
+  text-align: left;
+  position: relative;
+  width: 100%;
+  background: #293246;
+  color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.all-invaders-list__item-img{
+  width: 35px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.all-invaders-list__item-description {
+  font-size: 0.8em;
+  color: rgb(203, 218, 241);
+  margin-right: 20px;
+}
+
+.all-invaders-list__item-matlist {
+  /* display: inline-block; */
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+.all-invaders-list__item-matlist-img{
+  width: 25px;
+  margin-right: 5px;
+}
+.all-invaders-list__item-matlist-count {
+  background: rgb(203, 218, 241);
+  color: #1a1e29;
+  margin: 0 5px;
+  padding: 1px 3px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.all-invaders-list__item-matlist__material{
+  display: inline-block;
+  background: #1a1e29;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}

@@ -1,0 +1,16 @@
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 0.8em;
+  color: rgb(32, 30, 39);
+}
+
+.footer p {
+  margin:0;
+  padding:0;
+}
+
+.footer a {
+  color: rgb(23, 21, 31);
+  font-weight: bold;
+}

@@ -1,0 +1,90 @@
+.saved-sets {
+  background: #293246;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.saved-sets h2 {
+  margin: 0;
+  padding: 10px 0 10px 0;
+  color: rgb(202, 209, 238);
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.saved-item{
+  display: inline-block;
+  position: relative;
+  background: #1a1e29;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.saved-item img{
+  width: 30px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.saved-item-info {
+  font-size: 0.5em;
+  color: #fff;
+  background: rgb(29, 96, 197);
+  padding: 3px 5px;
+  border-radius: 4px;
+  margin-left: 6px;
+}
+.noneMsg {
+  color: #707888;
+}
+
+
+@media (max-width: 768px) {
+  .saved-item{
+    display: inline-block;
+    background: #1a1e29;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .saved-item img{
+    width: 25px;
+    margin-right: 5px;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .saved-item {
+    display: inline-block;
+    background: #1a1e29;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .saved-item .description{
+    display: none;
+  }
+  .saved-item img{
+    width: 80px;
+    margin-right: 0;
+    border-radius: 5px;
+  }
+  .saved-item-info {
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    font-size: 0.7em;
+    color: #fff;
+    background: rgb(29, 96, 197);
+    padding: 3px 5px;
+    border-radius: 4px;
+  }
+}

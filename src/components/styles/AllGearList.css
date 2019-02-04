@@ -1,0 +1,103 @@
+.new-gear-menu-block {
+  text-align: center;
+}
+
+.new-gear-menu-block a {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 110px;
+  min-height: 125px;
+  text-align: center;
+  padding: 10px;
+  background: rgb(27, 29, 41);
+  color: #eee;
+  margin: 4px;
+  border-radius: 5px;
+  font-size: 0.6em;
+}
+
+.new-gear-menu-block a img {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.mainMsg {
+  font-size: 0.9em;
+  text-align: center;
+  margin: 10px 0;
+  padding: 10px 0;
+  background: rgba(222, 222, 222, 0.2);
+  border-radius: 5px;
+}
+.mainMsg a{
+  color: rgb(26, 33, 43);
+}
+
+
+/* SHAMAN SECTION */
+
+.new-gear-menu-block-shaman {
+  text-align: center;
+}
+
+.new-gear-menu-block-shaman a{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 115px;
+  min-height: 175px;
+  text-align: center;
+  background: rgb(27, 29, 41);
+  padding: 10px;
+  margin: 4px;
+  border-radius: 5px;
+  font-size: 0.7em;
+}
+.new-gear-menu-block-shaman a img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.newGear {
+  background: rgb(29, 96, 197);
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border-radius: 3px;
+  padding: 2px;
+}
+
+@media (max-width: 768px) {
+  .new-gear-menu-block a {
+    display: inline-block;
+    vertical-align: top;
+    width: 120px;
+    min-height: 155px;
+    text-align: center;
+    padding: 10px;
+    background: rgb(27, 29, 41);
+    color: #eee;
+    margin: 4px;
+    border-radius: 5px;
+    font-size: 0.7em;
+  }
+}
+
+@media (max-width: 480px) {
+  .new-gear-menu-block a {
+    display: inline-block;
+    vertical-align: top;
+    width: 104px;
+    min-height: 145px;
+    text-align: center;
+    padding: 10px;
+    background: rgb(27, 29, 41);
+    color: #eee;
+    margin: 4px;
+    border-radius: 5px;
+    font-size: 0.7em;
+  }
+}

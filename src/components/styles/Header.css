@@ -1,0 +1,120 @@
+.header-main {
+  margin-bottom: 5px;
+  background: #1b1e27;
+  border-radius: 5px;
+  padding: 5px;
+  height: 50px;
+}
+.header-main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header-main h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1em;
+  color: #2c8b57;
+  line-height: 40px;
+  padding-left: 10px;
+}
+
+.left-header {
+  width: 50%;
+  float: left;
+  text-align: left;
+  box-sizing: border-box;
+}
+.right-header {
+  width: 50%;
+  float: right;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+.lang-button {
+  background: rgb(39, 43, 59);
+  color: rgb(139, 148, 177);
+  border: 0;
+  border-radius: 5px;
+  margin-left: 5px;
+  height: 40px;
+  width: 55px;
+}
+.checked {
+  color: #111;
+  background: #eee;
+}
+
+.devBy {
+  color: rgb(45, 48, 56);
+  margin-bottom: -2px;
+}
+.devBy a {
+  color: rgb(43, 48, 56);
+}
+
+.header-buttons {
+  text-align: right;
+  margin-top: 17px;
+  margin-bottom: 20px;
+}
+
+.msgBox {
+  display: inline-block;
+  background: rgb(223, 223, 223);
+  color: rgb(63, 63, 63);
+  border-radius: 5px;
+  padding: 10px 15px;
+  text-align: center;
+  margin-left: 6px;
+}
+
+.msgBox-blue-bg {
+  background: rgb(29, 96, 197);
+  color: #fff;
+  font-weight: bold;
+}
+
+.msgBox a {
+  color: #fff;
+}
+
+.annoceBox {
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 0.9em;
+  color: rgb(241, 247, 255);
+  text-align: center;
+  margin: 15px 0;
+}
+
+
+@media (max-width: 768px) {
+  .lang-button {
+    background: rgb(39, 43, 59);
+    color: rgb(139, 148, 177);
+    border: 0;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+  .checked {
+    color: #111;
+    background: #eee;
+  }
+}
+
+@media (max-width: 480px) {
+  .lang-button {
+    background: rgb(39, 43, 59);
+    color: rgb(139, 148, 177);
+    border: 0;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+  .checked {
+    color: #111;
+    background: #eee;
+  }
+}

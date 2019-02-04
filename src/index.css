@@ -1,0 +1,42 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  background: rgb(71, 76, 92);
+}
+
+button, button:active, button:focus { outline: none; cursor: pointer; }
+a { color: rgb(203, 218, 241); text-decoration: none;}
+a:hover { color: rgb(142, 157, 175); }
+
+.main-container {
+  width: 1200px;
+  padding: 10px 10px 100px 10px;
+  margin: 0 auto;
+}
+
+.ant-divider-inner-text { color: rgb(208, 217, 223); }
+.ant-divider-horizontal.ant-divider-with-text:before, .ant-divider-horizontal.ant-divider-with-text-left:before, .ant-divider-horizontal.ant-divider-with-text-right:before, .ant-divider-horizontal.ant-divider-with-text:after, .ant-divider-horizontal.ant-divider-with-text-left:after, .ant-divider-horizontal.ant-divider-with-text-right:after {
+  border-top: 2px solid rgba(222, 222, 222, 0.2);
+}
+
+
+@media (max-width: 768px) {
+  .main-container {
+    width: 740px;
+    padding: 10px 10px 100px 10px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-container {
+    width: 460px;
+    padding: 5px 5px 50px 5px;
+    margin: 0 auto;
+  }
+}
