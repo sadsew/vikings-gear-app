@@ -1,7 +1,5 @@
 # Vikings Gear
 
-Project files for gear.zak.su
-
 Game: Vikings: War of Clans
 
 --
